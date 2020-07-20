@@ -1,0 +1,248 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'formidable' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData formidable
+8 silly fetchNamedPackageData formidable
+9 silly mapToRegistry name formidable
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/formidable
+13 verbose request uri https://registry.npmjs.org/formidable
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 7:46:42 PM
+16 verbose request id 39418af9f172e0fa
+17 http request GET https://registry.npmjs.org/formidable
+18 http 200 https://registry.npmjs.org/formidable
+19 verbose headers { date: 'Mon, 20 Jul 2020 14:16:42 GMT',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'set-cookie':
+19 verbose headers    [ '__cfduid=de927a083705d42265f090652a92a7ade1595254602; expires=Wed, 19-Aug-20 14:16:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+19 verbose headers   'cf-ray': '5b5d4d328eda89af-MAA',
+19 verbose headers   age: '3422',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   etag: 'W/"5ad34097ca5f1c88367421fe49bad340"',
+19 verbose headers   'last-modified': 'Sat, 09 May 2020 14:43:06 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'cf-cache-status': 'HIT',
+19 verbose headers   'cf-request-id': '040e2e9398000089afcdb7e200000001',
+19 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Mon, 20 Jul 2020 14:16:42 GMT',
+20 silly get     'content-type': 'application/json',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'set-cookie':
+20 silly get      [ '__cfduid=de927a083705d42265f090652a92a7ade1595254602; expires=Wed, 19-Aug-20 14:16:42 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+20 silly get     'cf-ray': '5b5d4d328eda89af-MAA',
+20 silly get     age: '3422',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     etag: 'W/"5ad34097ca5f1c88367421fe49bad340"',
+20 silly get     'last-modified': 'Sat, 09 May 2020 14:43:06 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'cf-cache-status': 'HIT',
+20 silly get     'cf-request-id': '040e2e9398000089afcdb7e200000001',
+20 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving formidable to /home/anirudh/.npm/registry.npmjs.org/formidable/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule formidable@1.2.2 checking installable status
+35 silly cache add args [ 'formidable', null ]
+36 verbose cache add spec formidable
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'formidable',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'formidable',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed formidable@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for formidable
+40 info addNameTag [ 'formidable', 'latest' ]
+41 silly mapToRegistry name formidable
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/formidable
+45 verbose addNameTag registry:https://registry.npmjs.org/formidable not in flight; fetching
+46 verbose get https://registry.npmjs.org/formidable not expired, no request
+47 silly addNameTag next cb for formidable with tag latest
+48 silly addNamed formidable@1.2.2
+49 verbose addNamed "1.2.2" is a plain semver version for formidable
+50 silly mapToRegistry name formidable
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/formidable
+54 verbose addRemoteTarball https://registry.npmjs.org/formidable/-/formidable-1.2.2.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/formidable/-/formidable-1.2.2.tgz',
+55 verbose addRemoteTarball   'bf69aea2972982675f00865342b982986f6b8dd9' ]
+56 info retry fetch attempt 1 at 7:46:43 PM
+57 info attempt registry request try #1 at 7:46:43 PM
+58 http fetch GET https://registry.npmjs.org/formidable/-/formidable-1.2.2.tgz
+59 http fetch 200 https://registry.npmjs.org/formidable/-/formidable-1.2.2.tgz
+60 silly fetchAndShaCheck shasum bf69aea2972982675f00865342b982986f6b8dd9
+61 verbose addTmpTarball /tmp/npm-6235-9bf373af/registry.npmjs.org/formidable/-/formidable-1.2.2.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for formidable@1.2.2
+63 silly cache afterAdd formidable@1.2.2
+64 verbose afterAdd /home/anirudh/.npm/formidable/1.2.2/package/package.json not in flight; writing
+65 verbose afterAdd /home/anirudh/.npm/formidable/1.2.2/package/package.json written
+66 silly loadAllDepsIntoIdealTree Finishing
+67 silly idealTree:prePrune test
+67 silly idealTree:prePrune ├── formidable@1.2.2
+67 silly idealTree:prePrune ├── tslib@1.13.0
+67 silly idealTree:prePrune └── upper-case@2.0.1
+68 silly loadIdealTree Finishing
+69 silly currentTree test
+69 silly currentTree ├── tslib@1.13.0
+69 silly currentTree └── upper-case@2.0.1
+70 silly idealTree test
+70 silly idealTree ├── formidable@1.2.2
+70 silly idealTree ├── tslib@1.13.0
+70 silly idealTree └── upper-case@2.0.1
+71 silly generateActionsToTake Starting
+72 silly install generateActionsToTake
+73 silly generateActionsToTake Finishing
+74 silly diffTrees action count 2
+75 silly diffTrees add formidable@1.2.2
+76 silly diffTrees update upper-case@2.0.1
+77 silly decomposeActions action count 16
+78 silly decomposeActions fetch formidable@1.2.2
+79 silly decomposeActions extract formidable@1.2.2
+80 silly decomposeActions test formidable@1.2.2
+81 silly decomposeActions preinstall formidable@1.2.2
+82 silly decomposeActions build formidable@1.2.2
+83 silly decomposeActions install formidable@1.2.2
+84 silly decomposeActions postinstall formidable@1.2.2
+85 silly decomposeActions finalize formidable@1.2.2
+86 silly decomposeActions fetch upper-case@2.0.1
+87 silly decomposeActions extract upper-case@2.0.1
+88 silly decomposeActions test upper-case@2.0.1
+89 silly decomposeActions preinstall upper-case@2.0.1
+90 silly decomposeActions build upper-case@2.0.1
+91 silly decomposeActions install upper-case@2.0.1
+92 silly decomposeActions postinstall upper-case@2.0.1
+93 silly decomposeActions finalize upper-case@2.0.1
+94 silly executeActions Starting
+95 silly install executeActions
+96 silly doSerial global-install 0
+97 silly doParallel fetch 2
+98 verbose lock using /home/anirudh/.npm/_locks/staging-1a1bf57477dd3f80.lock for /home/anirudh/test/node_modules/.staging
+99 silly doParallel extract 2
+100 silly extract formidable@1.2.2
+101 silly extract upper-case@2.0.1
+102 verbose unbuild node_modules/.staging/formidable-d1dc6f4b
+103 silly gentlyRm /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b is being purged from base /home/anirudh/test
+104 verbose gentlyRm don't care about contents; nuking /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b
+105 verbose tar unpack /home/anirudh/.npm/formidable/1.2.2/package.tgz
+106 verbose tar unpacking to /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b
+107 silly gentlyRm /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b is being purged
+108 verbose gentlyRm don't care about contents; nuking /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b
+109 verbose unbuild node_modules/.staging/upper-case-304392e3
+110 silly gunzTarPerm modes [ '755', '644' ]
+111 silly gentlyRm /home/anirudh/test/node_modules/.staging/upper-case-304392e3 is being purged from base /home/anirudh/test
+112 verbose gentlyRm don't care about contents; nuking /home/anirudh/test/node_modules/.staging/upper-case-304392e3
+113 verbose tar unpack /home/anirudh/.npm/upper-case/2.0.1/package.tgz
+114 verbose tar unpacking to /home/anirudh/test/node_modules/.staging/upper-case-304392e3
+115 silly gentlyRm /home/anirudh/test/node_modules/.staging/upper-case-304392e3 is being purged
+116 verbose gentlyRm don't care about contents; nuking /home/anirudh/test/node_modules/.staging/upper-case-304392e3
+117 silly gunzTarPerm modes [ '755', '644' ]
+118 silly gunzTarPerm extractEntry LICENSE
+119 silly gunzTarPerm extractEntry LICENSE
+120 silly gunzTarPerm extractEntry lib/file.js
+121 silly gunzTarPerm extractEntry lib/incoming_form.js
+122 silly gunzTarPerm extractEntry dist.es2015/index.js
+123 silly gunzTarPerm extractEntry dist/index.js
+124 silly gunzTarPerm extractEntry lib/index.js
+125 silly gunzTarPerm extractEntry dist.es2015/index.spec.js
+126 silly gunzTarPerm extractEntry dist/index.spec.js
+127 silly gunzTarPerm extractEntry lib/json_parser.js
+128 silly gunzTarPerm extractEntry lib/multipart_parser.js
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm extractEntry dist.es2015/index.js.map
+131 silly gunzTarPerm extractEntry lib/octet_parser.js
+132 silly gunzTarPerm extractEntry lib/querystring_parser.js
+133 silly gunzTarPerm extractEntry package.json
+134 silly gunzTarPerm extractEntry README.md
+135 silly gunzTarPerm extractEntry dist/index.js.map
+136 silly gunzTarPerm extractEntry dist.es2015/index.spec.js.map
+137 silly gunzTarPerm extractEntry dist/index.spec.js.map
+138 silly gunzTarPerm extractEntry README.md
+139 silly gunzTarPerm extractEntry dist.es2015/index.d.ts
+140 silly gunzTarPerm extractEntry dist/index.d.ts
+141 silly gunzTarPerm extractEntry dist.es2015/index.spec.d.ts
+142 silly gunzTarPerm extractEntry dist/index.spec.d.ts
+143 silly gunzTarPerm extractEntry benchmark-2020-01-29_xeon-x3440.png
+144 silly gentlyRm /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b/node_modules is being purged
+145 verbose gentlyRm don't care about contents; nuking /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b/node_modules
+146 silly gentlyRm /home/anirudh/test/node_modules/.staging/upper-case-304392e3/node_modules is being purged
+147 verbose gentlyRm don't care about contents; nuking /home/anirudh/test/node_modules/.staging/upper-case-304392e3/node_modules
+148 silly doParallel preinstall 2
+149 silly preinstall formidable@1.2.2 /home/anirudh/test/node_modules/.staging/formidable-d1dc6f4b
+150 info lifecycle formidable@1.2.2~preinstall: formidable@1.2.2
+151 silly preinstall upper-case@2.0.1 /home/anirudh/test/node_modules/.staging/upper-case-304392e3
+152 info lifecycle upper-case@2.0.1~preinstall: upper-case@2.0.1
+153 silly lifecycle formidable@1.2.2~preinstall: no script for preinstall, continuing
+154 silly lifecycle upper-case@2.0.1~preinstall: no script for preinstall, continuing
+155 silly doReverseSerial remove 0
+156 silly doSerial move 0
+157 silly doSerial finalize 2
+158 silly finalize /home/anirudh/test/node_modules/formidable
+159 silly finalize /home/anirudh/test/node_modules/upper-case
+160 verbose unlock done using /home/anirudh/.npm/_locks/staging-1a1bf57477dd3f80.lock for /home/anirudh/test/node_modules/.staging
+161 silly rollbackFailedOptional Starting
+162 silly rollbackFailedOptional Finishing
+163 silly runTopLevelLifecycles Starting
+164 silly runTopLevelLifecycles Finishing
+165 silly install printInstalled
+166 warn enoent ENOENT: no such file or directory, open '/home/anirudh/test/package.json'
+167 warn test No description
+168 warn test No repository field.
+169 warn test No README data
+170 warn test No license field.
+171 verbose stack Error: EACCES: permission denied, rename '/home/anirudh/test/node_modules/upper-case' -> '/home/anirudh/test/node_modules/.upper-case.DELETE'
+171 verbose stack     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+171 verbose stack     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+171 verbose stack     at FSReqWrap.oncomplete (fs.js:153:5)
+171 verbose stack
+171 verbose stack Error: EACCES: permission denied, rename '/home/anirudh/test/node_modules/upper-case' -> '/home/anirudh/test/node_modules/.upper-case.DELETE'
+172 verbose cwd /home/anirudh/test
+173 error Linux 4.4.0-19041-Microsoft
+174 error argv "/usr/bin/node" "/usr/bin/npm" "install" "formidable"
+175 error node v8.10.0
+176 error npm  v3.5.2
+177 error path /home/anirudh/test/node_modules/upper-case
+178 error code EACCES
+179 error errno -13
+180 error syscall rename
+181 error Error: EACCES: permission denied, rename '/home/anirudh/test/node_modules/upper-case' -> '/home/anirudh/test/node_modules/.upper-case.DELETE'
+181 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+181 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+181 error     at FSReqWrap.oncomplete (fs.js:153:5)
+181 error
+181 error Error: EACCES: permission denied, rename '/home/anirudh/test/node_modules/upper-case' -> '/home/anirudh/test/node_modules/.upper-case.DELETE'
+181 error  Error: EACCES: permission denied, rename '/home/anirudh/test/node_modules/upper-case' -> '/home/anirudh/test/node_modules/.upper-case.DELETE'
+181 error     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+181 error     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+181 error     at FSReqWrap.oncomplete (fs.js:153:5)
+181 error
+181 error Error: EACCES: permission denied, rename '/home/anirudh/test/node_modules/upper-case' -> '/home/anirudh/test/node_modules/.upper-case.DELETE'
+182 error Please try running this command again as root/Administrator.
+183 verbose exit [ -13, true ]

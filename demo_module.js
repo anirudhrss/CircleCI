@@ -1,5 +1,4 @@
 var http = require('http');
-var dt = require('./myfirstmodule');
 exports.myDateTime = function () {
     return Date();
   };

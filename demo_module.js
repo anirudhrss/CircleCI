@@ -1,7 +1,6 @@
 var http = require('http');
-exports.myDateTime = function () {
-    return Date();
-  };
+var dt = require('./myfirstmodule');
+
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   res.write("The date and time are currently: " + dt.myDateTime());

@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-fs.open('mynewfile1.txt', 'w', function (err) {
+fs.writeFile('mynewfile1.txt', 'Hello contentt', function (err) {
   if (err) throw err;
   console.log('Saved!');
 });
